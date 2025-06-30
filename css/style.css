@@ -1,0 +1,1678 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*---------------------- home page ---------------------------------*/
+
+
+.header{
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+} 
+.nav-item {
+    padding: 18px 15px 18px 15px;
+}
+.navbar{
+    height: 90px;
+    background-color: #101719d5 ; 
+}
+
+#navbarText1 {
+    font-size: 16px;
+    color: #f1f3f5;
+    font-family: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+#arrow {
+    position: fixed;
+    height: 44px;
+    width: 44px;
+    top: 700px;
+    right: 16px;
+    z-index: 4;
+    background-color: #ceaf7f;
+    justify-content: space-between;
+}
+
+#companyname{
+    font-size: 30px;
+    color: white !important;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.5px;
+}
+
+#navbarbutton {
+    background-color: #ceaf7f;
+    padding: 6px 24px 6px 24px;
+    font-size: 14px;
+    height: 35px;
+    font-family: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+#nav-icon {
+    color: #ceaf7f;
+    font-size: 24px;
+
+}
+.navbar-collapse {
+  background-color:#101719d5 ;
+}
+.navbar-toggler {
+  color: white !important; /* Optional: white border */
+}
+
+
+
+
+#navbarText1.active-page {
+    color: #ceaf7f !important;
+}
+
+
+
+#navbarText1:hover {
+    color: #ceaf7f;
+}
+
+/* ------------------------------------home--------------------------------- */
+
+#index {
+    padding-top: 90px;
+}
+
+#home-resevar {
+    display: inline-block;
+    background-color: #ceae7f54;
+    color: #ceaf7f;
+    font-weight: bold;
+    font-size: 13.6px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    padding: 8px 24px 8px 24px;
+    letter-spacing: 1px;
+    font-family: system-ui, apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
+.home-paragraph {
+    margin-bottom: 32px;
+    font-size: 17.6px;
+    line-height: 1.7;
+}
+
+.home-time {
+    margin-bottom: 32px;
+}
+.home-text{
+    max-width: 570px;
+}
+#home-text {
+    padding: 48px 80px 48px 80px;
+}
+
+
+.home-font {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    line-height: normal;
+    font-weight: 800;
+    letter-spacing: 1px;
+
+}
+
+#home-icon {
+    color: #ceaf7f;
+    font-size: 20px;
+    margin-right: 12px;
+}
+
+#home-timetext {
+    font-weight: 500;
+}
+
+#home-buttonone {
+    background-color: #ceaf7f;
+    height: 52px;
+    width: 40%;
+    font-weight: bold;
+    transition: .3s;
+}
+
+#button-home {
+    height: 52px;
+    width: 50%;
+    font-weight: bold;
+    border: 1px solid white;
+    transition: .3s;
+}
+
+
+#button-home:hover {
+    transform: translate(0px, -5px);
+    color: #ceaf7f;
+    border: 1px solid #ceaf7f;
+    transition: .3s;
+}
+
+#button-home:hover a {
+    color: #ceaf7f !important;
+}
+
+#home-buttonone:hover {
+    transform: translate(0px, -5px);
+    background-color: #ceae7f9f;
+}
+
+#home-button {
+    margin-bottom: 32px;
+
+}
+
+#home-app {
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.24);
+    margin-right: 10px;
+    transition: 0.3s;
+}
+
+#home-app-icon {
+    font-size: 19.2px;
+
+}
+
+#home-app:hover {
+    transform: translate(0px, -5px);
+    background-color: #ceaf7f;
+}
+
+
+
+
+
+/*-------------------------------- about page--------------------- */
+
+#about {
+    padding: 120px 0px 60px 0px;
+    background-color: #101719;
+}
+
+#about-firsttext {
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    font-size: 32px;
+
+}
+
+#about-button {
+    height: 3px;
+    width: 60px;
+    position: absolute;
+    background-color: #ceaf7f;
+}
+
+#about-secendtext {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.795);
+}
+
+#about-threetext {
+    margin-bottom: 20px;
+}
+
+#about-box {
+    margin-top: 24px;
+    padding: 20px;
+}
+
+#about-first-img {
+    height: 70px;
+    width: 94px;
+}
+
+#about-round {
+    position: absolute;
+    top: -28px;
+    left: -25px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    width: 90px;
+    height: 90px;
+    background-color: #ceaf7f;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#img1 {
+    height: 70px;
+    width: 70px;
+    border: 3px solid #ceaf7f;
+}
+
+#about-textmessge {
+    margin-bottom: 8px;
+}
+
+#about-textchef {
+    font-weight: bold;
+    color: #ffffffd8;
+}
+
+#about-twoimg {
+    height: auto;
+    width: 636px;
+    border: 5px solid rgba(255, 255, 255, 0.356);
+
+}
+
+#about-thridimg {
+    width: 60%;
+    border: 5px solid rgba(255, 255, 255, 0.356);
+    position: absolute;
+    top: 200px;
+    right: -62px;
+}
+
+#chefs-box {
+    padding: 20px 15px 20px 15px;
+    transition: 0.3s;
+}
+
+#chefs-box:hover {
+    transform: translate(0px, -10px);
+}
+
+#chefs-box:hover #chefs-iconbox {
+    background-color: #ceaf7f;
+
+    transition: background-color 0.3s ease;
+}
+
+#chefs-box:hover #chefs-icon {
+    color: white;
+    transition: color 0.3s ease;
+}
+
+#chefs-iconbox {
+    margin: 0px auto 20px auto;
+    height: 70px;
+    width: 70px;
+    font-size: 28px;
+    background-color: #171e2042;
+}
+
+#chefs-icon {
+    font-size: 28px;
+    color: #ceaf7f;
+}
+
+#chef-box-title {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 12px;
+}
+
+#chef-box-text {
+    color: rgba(255, 255, 255, 0.801);
+    font-size: 14px;
+}
+
+#chefs-score {
+    padding: 30px 20px 30px 20px;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#chefs-box-number {
+    font-size: 42px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ceaf7f;
+    font-weight: 700;
+}
+
+#chefs-box-number-title {
+    color: #f4f7fa;
+    font-weight: 500;
+}
+
+
+/* @keyframes appear {
+    from {
+        opacity: 0;
+        scale: 0.5;
+    }
+
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+#about,
+#menu,
+#booktable,
+#location,
+#event,
+#Contact {
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+} */
+/* ---------------------------------menu page------------------- */
+#menu {
+    padding: 60px 0px 60px 0px;
+
+    background-color: #101719;
+}
+
+#menu-tital {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+#menu-button {
+    height: 2px;
+    width: 50px;
+    margin: 20px 15px 10px 0px;
+    background-color: #ceaf7f;
+
+}
+
+#menu-button1 {
+    height: 2px;
+    width: 50px;
+    margin: 20px 0px 10px 15px;
+    background-color: #ceaf7f;
+
+}
+
+#menu-maintitle {
+    margin: 0px 52.5px 0px 52.5px;
+    padding: 0px 12px 60px 12px;
+}
+
+#item-button {
+    margin: 0px 0px 16px 0px;
+}
+
+#button-item {
+    background-color: #252A2B;
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#button-item:hover {
+    background-color: #ceae7f2d;
+}
+
+#button-item.active {
+    background-color: #ceaf7f;
+    border: none;
+}
+
+#item-box {
+    padding: 0px 12px 0px 12px;
+}
+
+#item-boxrow {
+    padding: 20px;
+}
+
+#menu-imgbox {
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    padding-left: 0%;
+}
+
+#menu-imges {
+    height: 100%;
+    width: 100%;
+    transition: 0.3s;
+}
+
+#menu-imges:hover {
+    transform: scale(1.05)
+}
+
+#menu-item {
+    color: #ceaf7f;
+    font-size: 11.5px;
+    background-color: #ceae7f27;
+    height: 20px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+
+
+}
+
+#item-boxtext {
+    font-size: 14.4px;
+    margin-bottom: 10px;
+
+}
+
+#menu-itemname {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17.6px;
+
+}
+
+#item-boxtitle {
+    padding-left: 0px;
+}
+
+#menu-price {
+    font-weight: bold;
+    font-size: 17.6px;
+    color: #ceaf7f;
+}
+
+#menu-download {
+    background-color: #ceaf7f;
+    font-weight: bold;
+    height: 44px;
+    width: 229px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+#Download-icon {
+    color: white;
+}
+
+#menu-download:hover {
+    transform: translate(0px, -5px);
+    background-color: #ceae7fb9;
+}
+
+#menu-box {
+    background-color: #ceae7f1f;
+    transition: 0.3s;
+    padding: 20px;
+}
+
+#menu-box:hover {
+    transform: translate(0px, -5px);
+}
+
+#chefs-item-name {
+    background-color: rgba(255, 255, 255, 0.096);
+    padding: 8px 20px 8px 20px;
+    
+
+}
+
+#chefs-item-name-icon {
+    color: #ceaf7f;
+}
+
+#chefs-item-name-icon {
+    font-size: 17.6px;
+    color: #ceaf7f;
+}
+
+#chefs-item-name-text {
+    font-weight: bold;
+    font-size: 17.6px;
+}
+
+#veg-foud {
+    padding: 20px;
+}
+
+#veg-foud1 {
+    overflow: hidden;
+}
+
+.veg-foud-imges {
+    height: 240px;
+    width: 596px;
+    overflow: hidden;
+}
+
+#veg-foud-imges {
+    height: 240px;
+    width: 100%;
+    object-fit: cover;
+    transition: 0.7s ease;
+}
+
+#veg-foud-imges:hover {
+    transform: scale(1.03);
+}
+
+#veg-foud-special {
+    background-color: #ceaf7f;
+    color: #fff;
+    font-size: 12PX;
+    font-weight: 700;
+    height: 26px;
+    padding: 4px 10px 4px 10px;
+    position: relative;
+    top: -228px;
+    left: 13px;
+}
+
+#veg-foud-vegan {
+    background-color: #008000;
+    color: #fff;
+    font-size: 12PX;
+    font-weight: 700;
+    height: 26px;
+    padding: 4px 10px 4px 10px;
+    position: relative;
+    top: -228px;
+    left: 13px;
+}
+
+#veg-foud-special1 {
+    background-color: #ceaf7f;
+    color: #fff;
+    font-size: 12PX;
+    height: 26px;
+    font-weight: 700;
+    padding: 4px 10px 4px 10px;
+    position: relative;
+    top: -228px;
+    left: 13px;
+}
+
+#veg-foud-vegan1 {
+    background-color: #ff0000;
+    color: #fff;
+    font-size: 12PX;
+    height: 26px;
+    font-weight: 700;
+    padding: 4px 10px 4px 10px;
+    position: relative;
+    top: -228px;
+    left: 13px;
+}
+
+#veg-foud-title {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+#veg-foud-text {
+    color: rgba(255, 255, 255, 0.801);
+    font-size: 15.2px;
+    margin-bottom: 15px;
+}
+
+#veg-foud-price {
+    font-size: 19.2px;
+    color: #ceaf7f;
+    font-weight: bold;
+}
+
+/* --------------------Testimonials--------------- */
+#Testimonials {
+    padding: 60px 0px 60px 0px;
+    background-color: #101719;
+
+}
+
+#Testimonials-title {
+    padding: 0px 12px 60px 12px;
+}
+
+#Testimonials-line {
+    height: 2px;
+    width: 50px;
+    margin: 20px 0px 10px 0px;
+    background-color: #ceaf7f;
+}
+
+#Testimonials-line1 {
+    height: 2px;
+    width: 50px;
+    margin: 20px 0px 10px 15px;
+    background-color: #ceaf7f;
+}
+
+#Testimonials-name-tital {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#Testimonials-box {
+    margin: 40px 30px 40px 30px;
+    padding: 30px;
+}
+
+#Testimonials-star {
+    color: #ffc107;
+    font-size: 17.92px;
+}
+
+#Testimonials-box-text {
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+#Testimonials-box-img {
+    height: 100.8px;
+    width: 100.8px;
+}
+
+#Testimonials-box-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0px 5px 0px;
+}
+
+#Testimonials-box-text2 {
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #f1f3f571;
+}
+
+
+/* --------------------------------  book a table ----------------------------------- */
+#booktable {
+    padding: 60px 0px 60px 0px;
+    background-color: #101719;
+}
+
+#tablemain-text {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#tablesecend-text {
+    font-size: 16px;
+}
+
+#table-timetitle {
+    margin-bottom: 4.8px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#tablefrom-title {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#tablefrom-text {
+    color: rgba(255, 255, 255, 0.705);
+}
+
+#table-watch {
+    color: #ceaf7f;
+    font-size: 24px;
+    margin: 4px 16px 0px 0px;
+}
+
+#form-controltabal {
+    padding: 13px 20px 13px 20px;
+    color: #fff;
+    background-color: #252a2b;
+    border: 1px solid rgba(255, 255, 255, 0.13);
+}
+
+#form-controltabal::placeholder {
+    color: rgba(255, 255, 255, 0.63);
+}
+
+#table-bookbutton {
+    padding: 12px 36px 12px 36px;
+    font-weight: 600;
+    background-color: #ceaf7f;
+    transition: 0.3s;
+}
+
+#table-bookbutton:hover {
+    transform: translate(0px, -3px);
+    background-color: #ceae7fdc;
+    box-shadow: 0 8px 20px #ceae7f41;
+}
+
+#table-mainimg {
+    overflow: hidden;
+}
+
+#table-img {
+    height: 100%;
+    width: 100%;
+
+    transition: 0.3s ease;
+}
+
+#table-img:hover {
+    transform: scale(1.03);
+}
+
+#table-booking {
+    background-color: #252a2b;
+}
+
+
+/* ---------------------------------location-------------------------- */
+#location {
+    padding: 60px 0px 60px 0px;
+    background-color: #101719;
+}
+
+#location-firstline {
+    height: 2px;
+    width: 50px;
+    margin: 20px 15px 10px 0px;
+    background-color: #ceaf7f;
+}
+#location-firstline1 {
+    height: 2px;
+    width: 50px;
+    margin: 20px 0px 10px 15px;
+    background-color: #ceaf7f;
+}
+
+#location-mainbox {
+    padding: 32px;
+}
+
+#location-maintitle {
+
+    padding: 0px 12px 60px 12px;
+}
+
+#location-boxtital {
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#location-tital {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#location-boxlocation {
+    padding-bottom: 28px;
+    margin-bottom: 28px;
+}
+
+#location-locationtitle {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#location-locationtext {
+    color: rgba(255, 255, 255, 0.644);
+    margin-bottom: 4px;
+}
+
+#location-locationicon {
+    font-size: 24px;
+}
+
+#location-locationiconbox {
+    background-color: #ceae7f41;
+    color: #ceaf7f;
+    height: 48px;
+    width: 48px;
+}
+
+#location-boxbutton-make {
+    background-color: #ceaf7f;
+    font-weight: bold;
+    width: 48%;
+    height: 50px;
+    padding: 12px 24px 12px 24px;
+    transition: 0.5s ease;
+}
+
+#location-boxbutton-contact {
+    color: #ceaf7f;
+    width: 48%;
+    height: 50px;
+    border: 1px solid #ceaf7f;
+    font-weight: bold;
+    transition: 0.5s ease;
+}
+
+#location-boxbutton-contact:hover {
+    transform: translate(0px, -3px);
+    background-color: #ceae7f38;
+}
+
+#location-boxbutton-make:hover {
+    transform: translate(0px, -3px);
+    background-color: #ceae7fc7;
+}
+#find-us-time{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+#location-map {
+    height: 700px;
+    width: 100%;
+    padding: 0px 12px 0px 12px;
+}
+
+
+
+/* --------------------event------------------------------------- */
+#event {
+    padding: 60px 0px 60px 0px;
+    background-color: #101719;
+}
+
+
+#event-mainbox {
+    margin: 0px auto 0px auto;
+}
+
+#event-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#event-maintext {
+    color: rgba(255, 255, 255, 0.658);
+    font-size: 17.6px;
+}
+
+#event-line {
+    height: 3px;
+    width: 70px;
+    background-color: #ceaf7f;
+}
+
+#event-box {
+    padding: 40px 20px 40px 20px;
+    background-color: #252a2b;
+    transition: 0.3s ease;
+}
+
+#event-box:hover {
+    transform: translate(0px, -5px);
+}
+
+#event-boxicon {
+    height: 80px;
+    width: 80px;
+    margin: 0px auto 24px auto;
+    color: #ceaf7f;
+    background-color: #ceae7f25;
+}
+
+#event-boxicon-size {
+    font-size: 40px;
+}
+
+#event-box-tital {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22.4px;
+    margin-bottom: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+#event-box-text {
+    color: rgba(255, 255, 255, 0.74);
+    margin-bottom: 19.2px;
+    font-family: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+#event-boxicon-button {
+    background-color: rgba(255, 255, 255, 0.096);
+    display: inline-block;
+    font-size: 14px;
+    padding: 6px 16px 6px 16px;
+    font-weight: 600;
+}
+
+#event-img-main {
+    margin: 64px 0px 64px 0px;
+}
+
+#dinar {
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#event-imgone {
+    height: 100%;
+    width: 100%;
+    transition: 0.3s ease;
+}
+
+.event-imgtwo {
+    height: 192px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#event-imgtwo {
+    height: 100%;
+    width: 100%;
+    transition: 0.3s ease;
+}
+
+#event-imgtwo:hover {
+    transform: scale(1.05);
+}
+
+#event-imgone:hover {
+    transform: scale(1.05);
+}
+
+#event-main-resever {
+    padding: 40px;
+    margin-bottom: 64px;
+}
+
+#event-resever-title {
+    font-family: "Libre Baskerville", sans-serif, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 29px;
+}
+
+#event-resever-text {
+    color: rgba(255, 255, 255, 0.705);
+}
+
+#event-resever-button {
+    background-color: #ceaf7f;
+    font-weight: bold;
+    padding: 12px 30px 12px 30px;
+    transition: 0.3s ease;
+}
+
+#event-resever-button:hover {
+    transform: translate(0px, -03px);
+    background-color: #ceae7fc2;
+}
+
+#event-feature-title {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#feature-boxtitle {
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 16px;
+}
+
+#feature-boxicon {
+    color: #ceaf7f;
+}
+
+#feature-boxtext {
+    color: rgba(255, 255, 255, 0.692);
+}
+
+#img-upcoming {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+#box-position {
+    position: relative;
+}
+
+.box {
+    height: 70px;
+    width: 68px;
+    display: inline-block;
+    background-color: #ceaf7f;
+    padding: 10px;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+
+.box-number {
+    font-size: 24px;
+    font-weight: 700;
+    display: block;
+}
+
+.box-text {
+    font-size: 16px;
+    font-weight: 500;
+    display: block;
+}
+
+#feature-boxbutton {
+    border: 2px solid #ceaf7f;
+    color: #ceaf7f;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#feature-boxbutton:hover {
+    background-color: #ceaf7f;
+    color: #fff;
+}
+
+
+/* -----------------------------------contect----------------------- */
+#Contact {
+    padding: 60px 0px 60px 0px;
+    position: relative;
+}
+
+#contact-table {
+    position: absolute;
+    top: 70%;
+    left: 8%;
+    right: 8%;
+
+}
+
+#contact-title {
+    padding: 0px 12px 60px 12px;
+}
+
+#contact-mainline {
+    height: 2px;
+    width: 50px;
+    margin: 20px 15px 10px 0px;
+    background-color: #ceaf7f;
+}
+#contact-mainline1 {
+    height: 2px;
+    width: 50px;
+    margin: 20px 0px 10px 15px;
+    background-color: #ceaf7f;
+}
+
+#content1 {
+    height: 132.8px;
+    transition: 0.07s;
+}
+.enter{
+    margin-top: 16px;
+}
+
+#content1:hover {
+    transform: translate(0px, -5px);
+}
+
+#contact-name {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+#contact-box-address {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#contact-box-text {
+    color: rgba(255, 255, 255, 0.726);
+}
+
+#contact-box-icon {
+    background-color: #ceae7f23;
+    color: #ceaf7f;
+    height: 50px;
+    width: 50px;
+    position: relative;
+}
+
+#frist-icon {
+    position: absolute;
+    left: 20px;
+    font-size: 20px;
+    color: rgba(194, 32, 32, 0.63);
+}
+
+#contact-boxfrom::placeholder {
+    color: rgba(255, 255, 255, 0.63);
+}
+
+#contact-boxfrom {
+    padding: 12px 15px 12px 45px;
+    color: #fff;
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.13);
+}
+
+#contact-boxfrom1 {
+    width: 502px;
+}
+
+#contact-box-icones {
+    font-size: 24px;
+}
+
+#contact-map {
+    width: 100%;
+    height: 600px;
+}
+
+#contact-emalibox-line {
+    height: 3px;
+    width: 70px;
+    background-color: #ceaf7f;
+}
+
+#contact-from-title {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#contact-line {
+    height: 3px;
+    width: 7px;
+}
+
+#contact-boxfrom2 {
+    padding: 13px 20px 13px 20px;
+    color: #fff;
+
+    border: 1px solid rgba(255, 255, 255, 0.13);
+}
+
+
+#contact-boxfrom-icon {
+    color: rgba(255, 255, 255, 0.63);
+    border: none;
+
+}
+
+#contact-from-button {
+    background-color: #ceaf7f;
+    font-weight: bold;
+    padding: 12px 30px 12px 30px;
+    transition: 0.3s ease;
+}
+
+#contact-from-button:hover {
+    transform: translate(0px, -5px);
+    background-color: #ceae7fbe;
+    box-shadow: 0 5px 15px #ceae7fab;
+}
+
+#footer-name,
+#footer-link,
+#footer-contact,
+#footer-service {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#footer-icon {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    color: rgba(255, 255, 255, 0.521);
+    border: 1px solid rgba(255, 255, 255, 0.521);
+}
+
+#footer-linktext {
+    color: rgba(255, 255, 255, 0.712);
+    font-size: 14px;
+}
+
+#footer-addrest {
+    font-size: 14px;
+}
+
+#footer-linktext:hover {
+    color: #ceaf7f;
+}
+
+#footer-icon:hover {
+    color: #ceaf7f;
+    border: 1px solid #ceaf7f;
+}
+
+
+
+#footer {
+    margin-top: 350px;
+    padding: 60px 0px 60px 0px;
+    background-color: #101719;
+}
+
+
+.about-main #about-seacendimg {
+    position: relative;
+}
+
+#footer-end-copy {
+    font-size: 14px;
+    color: #f1f3f5;
+}
+
+#footer-end-nice {
+    font-size: 14px;
+    color: #f1f3f5;
+    font-weight: bolder;
+}
+
+#footer-end-link {
+    font-size: 14px;
+    color: #ceaf7f;
+
+}
+
+#footer-end {
+    margin-top: 80px;
+    padding-bottom: 60px;
+}
+
+/* --------------------------chefs------------------------------- */
+
+#chefs {
+    padding: 60px 0px 60px 0px;
+    padding: 0px 12px 0px 12px;
+    background-color: #101719;
+
+}
+
+#chefs-title {
+    padding: 0px 12px 60px 12px;
+}
+
+#chefs-line {
+    height: 2px;
+    width: 50px;
+    margin: 25px 15px 10px 0px;
+    background-color: #ceaf7f;
+}
+
+#chefs-line1 {
+    height: 2px;
+    width: 50px;
+    margin: 25px 0px 10px 15px;
+    background-color: #ceaf7f;
+}
+
+#chefs-name-tital {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+.chefsTurner{
+    height: 998.69px;
+    background-color: #252a2b;
+    width: 100%;
+    
+}
+.img {
+    height: 450px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#chefs-imgone {
+    height: 100%;
+    width: 100%;
+    transition: 0.5s ease;
+}
+
+#chefs-imgone:hover {
+    transform: scale(1.05)
+}
+
+#chefs-imgtwo {
+    height: 280px;
+    width: 100%;
+}
+
+#chefs-text-box {
+    padding: 40px;
+    width: 100%;
+    height: 400.69px;
+}
+
+#chefs-text-chefs {
+    font-size: 17.6px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ceaf7f;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#chefs-text-box-title {
+    font-size: 35.2px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #f4f7fa;
+}
+.chefs-lidare{
+    height: 487.34px;
+    width: 300px;
+    background-color: #252a2b; 
+}
+
+#chefs-text-box-title-text {
+    color: #f1f3f7;
+    font-size: 16px;
+}
+
+#chefs-text-box-button {
+    background-color: #ceae7f1c;
+    height: 32.8px;
+
+}
+
+#chefs-text-button-icon {
+    color: #ceaf7f;
+}
+
+#chefs-text-button-text {
+    font-size: 14.4px;
+}
+
+#chefs-text-signature {
+    height: 43.8px;
+    width: 180px;
+
+}
+
+
+
+
+
+#chefs-info-title {
+    color: #f1f3f7;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    margin-bottom: 4.8px;
+}
+
+#chefs-info-text {
+    font-size: 14.4px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ceaf7f;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+#chefs-info-text2 {
+    color: #f1f3f5;
+    font-size: 15.2px;
+}
+
+.swiper-slide {
+    transform: scale(0.2);
+    transition: transform 0.4s ease;
+}
+
+.swiper-slide-active {
+    background-color: #252a2b;
+    transform: scale(2.05);
+    z-index: 2;
+}
+
+
+
+
+/* Media Query */
+@media (max-width:1400px){
+
+}
+
+
+@media (max-width:1200px){
+    
+     .home-font {
+        font-size: 48px;
+    }
+    .navbar {
+        height: 63px;
+    }
+   #index{
+        padding-top: 63px;
+    }
+    .img{
+        height: 400px;
+    }
+    #chefs-imgtwo{
+        height: 260px;
+    }
+    #event-box{
+      height: 400px;  
+    }
+    .chefs-lidare{
+    width: 250px;
+   }
+    
+}
+@media (max-width:1024px) {
+    .img {
+        height: 336px;
+    }
+    #home-text {
+        padding: 30px 20px 30px 20px;
+    }
+}
+@media (max-width:991px) {
+    .carousel-inner {
+        height: 190.89px;
+        object-fit: cover;
+    }
+     #home-buttonone {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    #button-home {
+        width: 100%;
+
+    }
+    #home-text{
+        padding: 40px 24px 40px 24px;
+    }
+    #home-text{
+        display: flex;
+        justify-content: center;
+        padding: 48px 32px 48px 32px;
+    }
+    .home-font{
+        font-size: 40px;
+    }
+    #about-thridimg {
+        display: none;
+    }
+     #menu-imgbox {
+        height: 80px;
+        width: 80px;
+    }
+    .img{
+        height: 560px;
+    }
+   .chefs-lidare{
+    width: 300px;
+   }
+    #chefs-imgtwo{
+        height: auto;
+        width: auto;
+    }
+    .enter{
+        margin: 0px;
+    }
+    #veg-foud1{
+        height: 540px;
+    }
+}
+@media (max-width:768px) {
+   
+    #nav {
+        height: 63px;
+        width: 100%;
+        padding: 0px 12px 0px 12px;
+    }
+
+    #home-imges {
+        /* height: 140px;
+        width: 100%; */
+        padding: 0%;
+    }
+    .carousel-inner {
+        height: 140px;
+        object-fit: cover;
+    }
+    #home-text{
+        padding: 48px 32px 48px 32px;
+    }
+   .home-font{
+        font-size: 35.2px;
+    }
+
+    .home-paragraph {
+       font-size: 16px; 
+    }
+    #about-round {
+        height: 70px;
+        width: 70px;
+        font-size: 16px;
+        top: 10px;
+        left: -11px;
+    }
+
+    #about-twoimg {
+        margin-top: 20px;
+    }
+
+    #about-thridimg {
+        display: none;
+    }
+
+    #chefs-score1 {
+        width: 50%;
+        margin-bottom: 15px;
+    }
+
+    #chefs-box-number-title {
+        font-size: 15px;
+        font-weight: 500px;
+    }
+    .img{
+        height: 400px;
+    }
+    .chefs-lidare{
+    width: auto;
+    height: auto;
+   }
+   .chefsTurner{
+    height: 900px;
+    width: auto;
+   }
+   #tablemain-text{
+    font-size: 25.6px;
+   }
+   #tablefrom-title{
+    font-size: 25.6px;
+   }
+   #location-boxbutton-contact{
+    width: 100%;
+   }
+   #location-boxbutton-make{
+    width: 100%;
+    margin-bottom: 10px;
+   }
+   #veg-foud1{
+        height: auto;
+    }
+   
+
+   
+}
+@media (max-width:576px) {
+    #navbarbutton {
+        display: none;
+    }
+    .navbar{
+        height: 60.5px;
+    }
+     #index{
+        padding-top: 60.5px;
+    }
+     .veg-foud-imges {
+        width: 296px;
+    }
+    #find-us-time{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    margin-bottom: 10px;
+    }
+    #dinar {
+        height: 300px;
+    }
+    .veg-foud-imges{
+        width: 100%;
+    }
+}
+@media (max-width:360px) {
+    #nav-icon {
+        font-size: 24px;
+    }
+
+    #companyname {
+        font-size: 24px;
+    }
+
+    #navbarbutton {
+        display: none;
+    }
+    #nav {
+        height: 30.50px;
+        width: 100%;
+        padding: 0px 12px 0px 12px;
+    }
+
+    #home-imges {
+        padding: 0%;
+    }
+    .carousel-inner {
+        height: 415px;
+        object-fit: cover;
+    }
+    #menu-maintitle {
+        margin: 0px;
+    }
+    .img {
+        height: 300px;
+    }
+    .chefsTurner{
+    height: 900px;
+    width: auto;
+   }
+   #chefs-text-box-button {
+    height: auto;
+    margin-bottom: 5px;
+    }
+    #dinar{
+        height: 200px;
+    }
+     #menu-imgbox{
+        width: 100%;
+    }
+   
+}
+ 
