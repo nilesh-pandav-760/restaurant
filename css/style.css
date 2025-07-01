@@ -959,7 +959,7 @@ html {
 }
 
 #event-imgone {
-    height: 100%;
+    height: auto;
     width: 100%;
     transition: 0.3s ease;
 }
@@ -971,7 +971,7 @@ html {
 }
 
 #event-imgtwo {
-    height: 100%;
+    height: auto;
     width: 100%;
     transition: 0.3s ease;
 }
