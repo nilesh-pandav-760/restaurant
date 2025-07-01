@@ -1429,8 +1429,23 @@ html {
     z-index: 2;
 }
 
+.slider .row > * {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
 
+.slider .row,
+.slider .swiper-slide {
+  margin-right: 0;
+  margin-left: 0;
+  padding-right: 0;
+  padding-left: 0;
+}
 
+.slider *,
+.swiper * {
+  box-sizing: border-box;
+}
 
 /* Media Query */
 @media (max-width:1400px){
