@@ -373,7 +373,6 @@ html {
 /* ---------------------------------menu page------------------- */
 #menu {
     padding: 60px 0px 60px 0px;
-
     background-color: #101719;
 }
 
@@ -411,9 +410,10 @@ html {
 
 #button-item {
     background-color: #252A2B;
-    margin-right: 10px;
+    margin:0px 10px 10px 0px;
     font-size: 16px;
     font-weight: 500;
+
 }
 
 #button-item:hover {
@@ -1315,6 +1315,7 @@ html {
 }
 .chefsTurner{
     height: 998.69px;
+    margin-bottom: 20px;
     background-color: #252a2b;
     width: 100%;
     
@@ -1513,16 +1514,16 @@ html {
     #about-thridimg {
         display: none;
     }
-     #menu-imgbox {
+    #menu-imgbox {
         height: 80px;
         width: 80px;
     }
     .img{
         height: 560px;
     }
-   .chefs-lidare{
-    width: 300px;
-   }
+    .chefs-lidare{
+        width: 300px;
+    }
     #chefs-imgtwo{
         height: auto;
         width: auto;
@@ -1543,8 +1544,6 @@ html {
     }
 
     #home-imges {
-        /* height: 140px;
-        width: 100%; */
         padding: 0%;
     }
     .carousel-inner {
@@ -1554,7 +1553,7 @@ html {
     #home-text{
         padding: 48px 32px 48px 32px;
     }
-   .home-font{
+    .home-font{
         font-size: 35.2px;
     }
 
@@ -1631,16 +1630,22 @@ html {
         width: 296px;
     }
     #find-us-time{
-    display: flex;
-    align-items: start;
-    justify-content: start;
-    margin-bottom: 10px;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        margin-bottom: 10px;
     }
     #dinar {
         height: 300px;
     }
     .veg-foud-imges{
         width: 100%;
+    }
+    .chefs-lidare{
+        width: 300px;
+    }
+     #content1{
+        padding:18px!important;
     }
 }
 @media (max-width:360px) {
@@ -1675,19 +1680,27 @@ html {
         height: 300px;
     }
     .chefsTurner{
-    height: 900px;
-    width: auto;
+        height: 900px;
+        width: auto;
    }
    #chefs-text-box-button {
-    height: auto;
-    margin-bottom: 5px;
+        height: auto;
+        margin-bottom: 5px;
     }
     #dinar{
         height: 200px;
     }
+    .chefs-lidare{
+        width: auto;
+    }
      #menu-imgbox{
         width: 100%;
+        margin-bottom: 10px;
     }
+    #content1{
+        padding: 20px 0px 20px 0px!important;
+    }
+    
    
 }
  
